@@ -1,0 +1,69 @@
+versionName=1.0.20220829
+versionCode=1
+BOARD=umi
+BOOTLOADER=unknown
+BRAND=Xiaomi
+CPU_ABI=arm64-v8a
+CPU_ABI2=
+DEVICE=umi
+DISPLAY=SKQ1.211006.001 release-keys
+FINGERPRINT=Xiaomi/umi/umi:12/RKQ1.211001.001/V13.0.7.0.SJBCNXM:user/release-keys
+HARDWARE=qcom
+HOST=xiaomi.eu
+HW_TIMEOUT_MULTIPLIER=1
+ID=SKQ1.211006.001
+IS_CONTAINER=false
+IS_DEBUGGABLE=false
+IS_EMULATOR=false
+IS_ENG=false
+IS_MIUI=true
+IS_TIMINGTRACE=false
+IS_TREBLE_ENABLED=true
+IS_USER=true
+IS_USERDEBUG=false
+MANUFACTURER=Xiaomi
+MODEL=Mi 10
+ODM_SKU=unknown
+PERMISSIONS_REVIEW_REQUIRED=true
+PRODUCT=umi
+RADIO=unknown
+SERIAL=unknown
+SKU=unknown
+SOC_MANUFACTURER=QTI
+SOC_MODEL=SM8250
+SUPPORTED_32_BIT_ABIS=[armeabi-v7a, armeabi]
+SUPPORTED_64_BIT_ABIS=[arm64-v8a]
+SUPPORTED_ABIS=[arm64-v8a, armeabi-v7a, armeabi]
+TAG=Build
+TAGS=release-keys
+TIME=1660552211000
+TYPE=user
+UNKNOWN=unknown
+USER=builder
+ACTIVE_CODENAMES=[]
+ALL_CODENAMES=[REL]
+BASE_OS=
+CODENAME=REL
+DEVICE_INITIAL_SDK_INT=29
+INCREMENTAL=V13.0.7.0.SJBCNXM
+MEDIA_PERFORMANCE_CLASS=0
+MIN_SUPPORTED_TARGET_SDK_INT=23
+PREVIEW_SDK_FINGERPRINT=REL
+PREVIEW_SDK_INT=0
+RELEASE=12
+RELEASE_OR_CODENAME=12
+RESOURCES_SDK_INT=31
+SDK=31
+SDK_INT=31
+SECURITY_PATCH=2022-08-01
+java.lang.RuntimeException: setFloat false
+	at com.osfans.trime.Trime.setFloat(Unknown Source:94)
+	at com.osfans.trime.Trime.onOptionChanged2(Unknown Source:238)
+	at com.osfans.trime.Trime$1.handleMessage(Unknown Source:48)
+	at android.os.Handler.dispatchMessage(Unknown Source:19)
+	at android.os.Looper.loopOnce(Unknown Source:176)
+	at android.os.Looper.loop(Unknown Source:76)
+	at android.app.ActivityThread.main(Unknown Source:138)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(Unknown Source:11)
+	at com.android.internal.os.ZygoteInit.main(Unknown Source:309)

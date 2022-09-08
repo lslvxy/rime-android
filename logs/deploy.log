@@ -1,0 +1,564 @@
+--------- beginning of main
+[ 09-08 19:16:16.047 22819:22819 D/DecorView[] ]
+onWindowFocusChanged hasWindowFocus true
+
+[ 09-08 19:16:16.059 22819:22837 I/Rime-JNI ]
+finalize...
+
+[ 09-08 19:16:16.059 22819:22837 W/System.err ]
+java.lang.RuntimeException: full_check true
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at com.osfans.trime.Rime.get(Unknown Source:24)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at com.osfans.trime.Function.deploy(Unknown Source:4)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.a(Unknown Source:14)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at com.osfans.trime.Pref$TrimePreferenceFragment$9.doInBackground(Unknown Source:2)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at android.os.AsyncTask$3.call(Unknown Source:20)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at android.os.AsyncTask$SerialExecutor$1.run(Unknown Source:2)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+
+[ 09-08 19:16:16.060 22819:22837 W/System.err ]
+	at java.lang.Thread.run(Thread.java:920)
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/core_module.cc:20 registering core components.
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: config_builder
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: config
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: schema
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: user_config
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/dict_module.cc:25 registering components from module 'dict'.
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: tabledb
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: stabledb
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: plain_userdb
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: userdb
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: corrector
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: dictionary
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_dictionary
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: user_dictionary
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: userdb_recovery_task
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/gears_module.cc:43 registering components from module 'gears'.
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: ascii_composer
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: chord_composer
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: express_editor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: fluid_editor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: fluency_editor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: key_binder
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: navigator
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: punctuator
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: recognizer
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: selector
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: speller
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: shape_processor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: abc_segmentor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: affix_segmentor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: ascii_segmentor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: matcher
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: punct_segmentor
+
+
+[ 09-08 19:16:16.244 22819:22837 I/native   ]
+I/registry.cc:14 registering component: fallback_segmentor
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: echo_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: punct_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: table_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: script_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: r10n_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: schema_list_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: switch_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: codepoint_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: history_translator
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: simplifier
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: uniquifier
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: charset_filter
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: cjk_minifier
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: reverse_lookup_filter
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: single_char_filter
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/registry.cc:14 registering component: shape_formatter
+
+
+[ 09-08 19:16:16.245 22819:22837 I/native   ]
+I/modules.cc:39 registering components from module 'lua'.
+
+
+[ 09-08 19:16:16.246 22819:22837 I/native   ]
+I/modules.cc:29 rime.lua error: cannot open /storage/emulated/0/Android/rime/rime.lua: No such file or directory
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/grammar_module.cc:14 registering components from module 'grammar'.
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: grammar
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/levers_module.cc:23 registering components from module 'levers'.
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: detect_modifications
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: installation_update
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: workspace_update
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: schema_update
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: config_file_update
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: prebuild_all_schemas
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: user_dict_upgrade
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: cleanup_trash
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: user_dict_sync
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: backup_config_files
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/registry.cc:14 registering component: clean_old_log_files
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/deployment_tasks.cc:80 updating rime installation info.
+
+
+[ 09-08 19:16:16.247 22819:22837 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/installation.yaml'.
+
+
+[ 09-08 19:16:16.248 22819:22837 I/native   ]
+I/deployment_tasks.cc:98 installation info exists. installation id: a5965cd2-4b5b-4e1f-9e4b-b5575238d55d
+
+
+[ 09-08 19:16:16.248 22819:22837 I/native   ]
+I/deployment_tasks.cc:106 sync dir: /storage/emulated/0/Android/rime/sync
+
+
+[ 09-08 19:16:16.248 22819:22837 I/native   ]
+I/deployment_tasks.cc:114 previous Rime version: 1.5.3
+
+
+[ 09-08 19:16:16.248 22819:22837 I/native   ]
+I/deployer.cc:114 starting work thread for 3 tasks.
+
+
+[ 09-08 19:16:16.248 22819:27020 I/native   ]
+I/deployer.cc:83 running deployment tasks:
+
+
+[ 09-08 19:16:16.249 22819:27020 I/native   ]
+I/deployment_tasks.cc:160 updating workspace.
+
+
+[ 09-08 19:16:16.252 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 09-08 19:16:16.258 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 09-08 19:16:16.263 22819:27020 I/native   ]
+I/deployment_tasks.cc:183 updating schemas.
+
+
+[ 09-08 19:16:16.263 22819:27020 I/native   ]
+I/deployment_tasks.cc:193 schema: double_pinyin
+
+
+[ 09-08 19:16:16.263 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/double_pinyin.schema.yaml'.
+
+
+[ 09-08 19:16:16.271 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml'.
+
+
+[ 09-08 19:16:16.278 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml'.
+
+
+[ 09-08 19:16:16.283 22819:27020 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'luna_pinyin'.
+
+
+[ 09-08 19:16:16.283 22819:27020 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml
+
+
+[ 09-08 19:16:16.288 22819:27020 I/native   ]
+I/dict_compiler.cc:56 dict name: luna_pinyin
+
+
+[ 09-08 19:16:16.288 22819:27020 I/native   ]
+I/dict_compiler.cc:57 dict version: 2018.04.15
+
+
+[ 09-08 19:16:16.345 22819:27020 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/luna_pinyin.table.bin
+
+
+[ 09-08 19:16:16.346 22819:27020 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/double_pinyin.prism.bin
+
+
+[ 09-08 19:16:16.347 22819:27020 I/native   ]
+I/prism.cc:107 found double array image of size 1024.
+
+
+[ 09-08 19:16:16.347 22819:27020 I/native   ]
+I/dict_compiler.cc:109 /storage/emulated/0/Android/rime/luna_pinyin.dict.yaml[1 file(s)] (4100416695)
+
+
+[ 09-08 19:16:16.347 22819:27020 I/native   ]
+I/dict_compiler.cc:111 /storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml (510798704)
+
+
+[ 09-08 19:16:16.350 22819:27020 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/luna_pinyin.reverse.bin
+
+
+[ 09-08 19:16:16.355 22819:27020 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'luna_pinyin' is ready.
+
+
+[ 09-08 19:16:16.356 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml'.
+
+
+[ 09-08 19:16:16.367 22819:27020 I/native   ]
+I/deployment_tasks.cc:193 schema: stroke
+
+
+[ 09-08 19:16:16.367 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/stroke.schema.yaml'.
+
+
+[ 09-08 19:16:16.373 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/stroke.schema.yaml'.
+
+
+[ 09-08 19:16:16.381 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/stroke.schema.yaml'.
+
+
+[ 09-08 19:16:16.391 22819:27020 I/native   ]
+I/deployment_tasks.cc:358 preparing dictionary 'stroke'.
+
+
+[ 09-08 19:16:16.391 22819:27020 I/native   ]
+I/dict_compiler.cc:41 compiling dictionary for /storage/emulated/0/Android/rime/build/stroke.schema.yaml
+
+
+[ 09-08 19:16:16.393 22819:27020 I/native   ]
+I/dict_compiler.cc:56 dict name: stroke
+
+
+[ 09-08 19:16:16.393 22819:27020 I/native   ]
+I/dict_compiler.cc:57 dict version: 1.0
+
+
+[ 09-08 19:16:16.420 22819:27020 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/stroke.table.bin
+
+
+[ 09-08 19:16:16.437 22819:27020 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/stroke.prism.bin
+
+
+[ 09-08 19:16:16.444 22819:27020 I/native   ]
+I/prism.cc:107 found double array image of size 582400.
+
+
+[ 09-08 19:16:16.444 22819:27020 I/native   ]
+I/dict_compiler.cc:109 /storage/emulated/0/Android/rime/stroke.dict.yaml[1 file(s)] (2765453367)
+
+
+[ 09-08 19:16:16.444 22819:27020 I/native   ]
+I/dict_compiler.cc:111 /storage/emulated/0/Android/rime/build/stroke.schema.yaml (1273237265)
+
+
+[ 09-08 19:16:16.445 22819:27020 I/native   ]
+I/reverse_lookup_dictionary.cc:33 loading reversedb: /storage/emulated/0/Android/rime/build/stroke.reverse.bin
+
+
+[ 09-08 19:16:16.458 22819:27020 I/native   ]
+I/deployment_tasks.cc:376 dictionary 'stroke' is ready.
+
+
+[ 09-08 19:16:16.459 22819:27020 I/native   ]
+I/deployment_tasks.cc:241 finished updating schemas: 2 success, 0 failure.
+
+
+[ 09-08 19:16:16.459 22819:27020 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 09-08 19:16:16.460 22819:27020 I/native   ]
+I/config_data.cc:199 write: var/last_build_time
+
+
+[ 09-08 19:16:16.460 22819:27020 I/native   ]
+I/config_data.cc:85 saving config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 09-08 19:16:16.464 22819:27020 I/native   ]
+I/deployment_tasks.cc:591 clean up trash.
+
+
+[ 09-08 19:16:16.474 22819:27020 I/native   ]
+I/deployer.cc:95 3 tasks ran: 3 success, 0 failure.
+
+
+[ 09-08 19:16:16.474 22819:22837 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/default.yaml'.
+
+
+[ 09-08 19:16:16.482 22819:22837 I/native   ]
+I/engine.cc:71 starting engine.
+
+
+[ 09-08 19:16:16.482 22819:22837 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/user.yaml'.
+
+
+[ 09-08 19:16:16.485 22819:22837 I/native   ]
+I/engine.cc:126 updated option: ascii_punct
+
+
+[ 09-08 19:16:16.485 22819:22837 I/native   ]
+I/engine.cc:126 updated option: full_shape
+
+
+[ 09-08 19:16:16.485 22819:22837 I/native   ]
+I/config_data.cc:65 loading config file '/storage/emulated/0/Android/rime/build/double_pinyin.schema.yaml'.
+
+
+[ 09-08 19:16:16.489 22819:22837 I/native   ]
+I/engine.cc:126 updated option: _auto_commit
+
+
+[ 09-08 19:16:16.490 22819:22837 I/native   ]
+I/dictionary.cc:261 loading dictionary 'luna_pinyin'.
+
+
+[ 09-08 19:16:16.490 22819:22837 I/native   ]
+I/table.cc:299 loading table file: /storage/emulated/0/Android/rime/build/luna_pinyin.table.bin
+
+
+[ 09-08 19:16:16.491 22819:22837 I/native   ]
+I/prism.cc:77 loading prism file: /storage/emulated/0/Android/rime/build/double_pinyin.prism.bin
+
+
+[ 09-08 19:16:16.492 22819:22837 I/native   ]
+I/prism.cc:107 found double array image of size 1024.
+
+
+[ 09-08 19:16:16.649 22819:22837 I/native   ]
+I/engine.cc:126 updated option: ascii_mode
+
+
+[ 09-08 19:16:16.649 22819:22837 I/native   ]
+I/engine.cc:126 updated option: simplification
+
+
+[ 09-08 19:16:16.650 22819:22837 W/rime     ]
+full_check: 
+
+[ 09-08 19:16:16.650 22819:22837 I/Pref     ]
+Deploy: end
+
+[ 09-08 19:16:16.907 22819:22912 D/BufferPoolAccessor2.0 ]
+bufferpool2 0x75059a1628 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 4/34 (fetch/transfer)
+
+[ 09-08 19:16:16.907 22819:22912 D/BufferPoolAccessor2.0 ]
+evictor expired: 1, evicted: 1
+

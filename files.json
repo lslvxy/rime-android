@@ -1,0 +1,22 @@
+{
+    "stroke.schema.yaml": "b1aa4b1a475a3ad57e287af8103e538e",
+    "cloud.dict.yaml": "4a13e3570305b2f964c47025f7252ad7",
+    "double_pinyin_flypy.schema.yaml": "d45195328b899e2c58383119522d37b1",
+    "double_pinyin_pyjj.schema.yaml": "ad4417f307844df7bc6248f894b2f212",
+    "symbols.yaml": "9013b1b104d4edb2ecece1f111e6bac",
+    "luna_pinyin.schema.yaml": "19ced73643cd9a6b33e617c6e053ff59",
+    "double_pinyin_mspy.schema.yaml": "924515965beec30c2329b1a38f09b44",
+    "user.yaml": "76623f1d505d16adc1d7978606fbfb1e",
+    "luna_pinyin.dict.yaml": "a79e5dd1892bb3378093524836a3d2d5",
+    "凉秋1.87.trime.yaml": "7b49e587d355df6acf1ae208e3856f93",
+    "stroke.dict.yaml": "e73cffd551c52bb4deff7be784ac9bd1",
+    "installation.yaml": "631bd4c1923503431ce29974dad76b9e",
+    "trime.yaml": "f1946a54184ecae76f9538df98bf2022",
+    "tongwenfeng.trime.yaml": "81340f3aec904682956db22b0421a3ca",
+    "luna_jiugong.schema.yaml": "2edcde6248af7968a978c68cca346039",
+    "double_pinyin.schema.yaml": "653246e7adb68b4aa40d336d59637b36",
+    "double_pinyin_abc.schema.yaml": "2ac8112ee4323e577f304e40826336ef",
+    "default.custom.yaml": "17e5a9c2f1fdbf57d073ac71a18979c6",
+    "default.yaml": "8caf88ab8a18b53b58de73b8e1acc62a",
+    "luna_jiugong.custom.yaml": "daf8998143df087353552d1d55d7675c"
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "自定义剪切板",
+        "time": 1662634766962,
+        "list": [
+            "script\/",
+            "script\/自定义剪切板.lua"
+        ]
+    },
+    {
+        "name": "自定义短语",
+        "time": 1662634125231,
+        "list": [
+            "script\/",
+            "script\/自定义短语\/",
+            "script\/自定义短语\/自定义短语.lua",
+            "script\/自定义短语\/自定义短语.txt"
+        ]
+    },
+    {
+        "name": "凉秋 1.87",
+        "time": 1662633591126,
+        "list": [
+            "backgrounds\/",
+            "backgrounds\/ytl.png",
+            "凉秋1.87.trime.yaml"
+        ]
+    }
+]
